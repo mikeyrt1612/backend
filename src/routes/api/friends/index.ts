@@ -1,0 +1,8 @@
+import { Router } from 'express'
+import * as ctrl from './controllers'
+
+const router = Router()
+
+router.get('/', ctrl.getAllController)
+
+export default router

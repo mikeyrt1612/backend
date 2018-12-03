@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "airbnb",
+    "plugin:jsx-a11y/strict",
+    "plugin:react/all"
+  ],
+  "plugins": [
+    "react",
+    "jsx-a11y"
+  ],
+  "rules": {
+    "linebreak-style": ["error", "windows"],
+    "semi": ["error", "never"]
+  }
+}
